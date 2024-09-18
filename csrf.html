@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body>
+        <form action="http://localhost/Municipality-Management-System-main/adminpage.php" method="post">
+            
+            <div class="container">
+              <label for="firstname"><b>First name</b></label>
+              <input type="text" value="Krishna" name="firstname" required><br><br>
+      
+      
+              <label for="middlename"><b>Middle Name</b></label>
+              <input type="text" value="Kumar" name="middlename"><br><br>
+      
+              <label for="lastname"><b>Last Name</b></label>
+              <input type="text" value="Raut" name="lastname" required><br><br>
+      
+              <label for="familyname"><b>Family Name</b></label>
+              <input type="text" value="Raut" name="familyname"><br><br>
+      
+              <label for="dob"><b>Date of birth</b></label>
+              <input type="date" value="2001-02-02" name="dob" required><br><br>
+      
+              <label for="citizen_id"><b>Enter Citizen ID</b></label>
+              <input type="text" value="141315" name="citizenid" required><br>
+      
+              
+      
+              <p><b> Gender</b></p>
+              <select name="gender" type="text">
+                <option value="male" selected>Male</option>
+                <option value="female">Female</option>
+                <option value="other">other</option>
+              </select><br>
+              <br>
+      
+              <label for="marriageid"><b>Enter Marriage ID (Leave Blank if Unmarried)</b></label>
+              <input type="text" value="169" name="marriageid"><br><br>
+      
+      
+              <label for="phonenumber"><b>Phone Number</b></label>
+              <input type="text" value="9817010101" name="phonenumber" required><br><br>
+      
+              <label for="city"><b>City</b></label>
+              <input type="text" value="Kathmandu" name="city" required><br><br>
+      
+              <label for="zipcode"><b>Zip Code</b></label>
+              <input type="text" value="52500" name="zipcode" required><br><br>
+      
+              <label for="housenumber"><b>House Number</b></label>
+              <input type="text" value="76" name="housenumber" required><br><br>
+      
+              <label for="streetname"><b>Street Name</b></label>
+              <input type="text" value="SriGalli" name="streetname" required><br><br>
+      
+              <label for="streetnumber"><b>Street Number</b></label>
+              <input type="text" value="31" name="streetnumber" required><br><br>
+      
+              <button type="submit" name="abcd">Submit</button>
+      
+            </div>
+      
+      
+          </form>
+        <script>
+            const variable1=document.getElementsByTagName("form");
+            variable1.submit();
+        </script>
+    </body>
+    
+</html>
